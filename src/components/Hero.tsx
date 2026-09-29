@@ -73,7 +73,7 @@ export const Hero: React.FC<HeroProps> = ({
   return (
     <section
       id="home"
-      className="relative isolate min-h-[92vh] lg:min-h-[98vh] flex items-end pb-12 sm:pb-16 lg:pb-24 pt-32 sm:pt-36 overflow-hidden bg-[#102a56]"
+      className="hero-section relative isolate min-h-[92vh] lg:min-h-[98vh] flex items-end pb-12 sm:pb-16 lg:pb-24 pt-32 sm:pt-36 overflow-hidden bg-[#102a56]"
       aria-label="First-Global Homepage Hero"
     >
       {/* 1. Immersive Photographic Background with complete visibility (Farmora reference) */}
@@ -126,7 +126,7 @@ export const Hero: React.FC<HeroProps> = ({
             className="lg:col-span-8 flex flex-col items-start"
           >
             {/* Top Eyebrow Tag */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/20 backdrop-blur-md border border-white/25 text-white mb-5 shadow-xs">
+            <div className="hero-eyebrow inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/20 backdrop-blur-md border border-white/25 text-white mb-5 shadow-xs">
               <span className="w-2 h-2 rounded-full bg-[#e97824] animate-pulse" />
               <span className="text-[12px] sm:text-[13px] font-heading font-medium tracking-wide">
                 AI-Enabled Service Delivery
@@ -136,13 +136,13 @@ export const Hero: React.FC<HeroProps> = ({
             {/* Display Headline (PRD: Figtree 400-500, clean, confident) */}
             <h1
               id="hero-primary-headline"
-              className="text-[34px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-heading font-normal tracking-tight text-white leading-[1.1] mb-5 text-balance drop-shadow-sm"
+              className="hero-heading text-[34px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-heading font-normal tracking-tight text-white leading-[1.1] mb-5 text-balance drop-shadow-sm"
             >
               AI-Enabled Service Delivery Marketplace for Rural India.
             </h1>
 
             {/* Supporting Headline & Narrative Paragraph */}
-            <div className="max-w-2xl mb-8">
+            <div className="hero-supporting max-w-2xl mb-8">
               <h2 className="text-[18px] sm:text-[20px] font-heading font-medium text-[#fcf9f2] mb-2 tracking-normal drop-shadow-xs">
                 Charting Rural India’s Digital Services Future
               </h2>
@@ -152,7 +152,7 @@ export const Hero: React.FC<HeroProps> = ({
             </div>
 
             {/* Primary Action Button (Reference: Pill shape with arrow) */}
-            <div className="flex flex-wrap items-center gap-4">
+            <div className="hero-actions flex flex-wrap items-center gap-4">
               <button
                 type="button"
                 id="hero-cta-marketplace"
