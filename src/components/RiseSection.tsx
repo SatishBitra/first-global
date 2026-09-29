@@ -18,7 +18,6 @@ export const RiseSection: React.FC<RiseSectionProps> = ({ onOpenEnquiry }) => {
         'Bringing reliable home maintenance, solar micro-grid support, clean water, and farm equipment care directly to village households.',
       icon: Home,
       image: '/hh.jpg',
-      badge: 'Direct Beneficiaries',
       borderColor: 'hover:border-[#e97824]',
       accentBg: 'bg-[#e97824]',
     },
@@ -30,7 +29,6 @@ export const RiseSection: React.FC<RiseSectionProps> = ({ onOpenEnquiry }) => {
         'Empowering local Village Level Entrepreneurs (VLEs) and skilled rural youth with digital job dispatch, training, and steady income.',
       icon: Wrench,
       image: '/lsp.jpg',
-      badge: 'Empowered VLEs',
       borderColor: 'hover:border-[#1557c0]',
       accentBg: 'bg-[#1557c0]',
     },
@@ -42,7 +40,6 @@ export const RiseSection: React.FC<RiseSectionProps> = ({ onOpenEnquiry }) => {
         'Partnering with Gram Panchayats, self-help groups (SHGs), rural banks, and cooperative societies for transparent governance.',
       icon: Building2,
       image: '/ri.jpg',
-      badge: 'Institutional Trust',
       borderColor: 'hover:border-[#078f83]',
       accentBg: 'bg-[#078f83]',
     },
@@ -54,7 +51,6 @@ export const RiseSection: React.FC<RiseSectionProps> = ({ onOpenEnquiry }) => {
         'Integrating with India Stack, ONDC protocols, technology platforms, and social impact investors to scale across 600,000+ villages.',
       icon: Network,
       image: '/patnerships.jpg',
-      badge: 'Open Ecosystem',
       borderColor: 'hover:border-[#4e9f45]',
       accentBg: 'bg-[#4e9f45]',
     },
@@ -117,11 +113,6 @@ export const RiseSection: React.FC<RiseSectionProps> = ({ onOpenEnquiry }) => {
                       className="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-500 ease-out"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-                    <div className="absolute top-2.5 left-2.5">
-                      <span className="px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-white text-[10.5px] font-heading font-medium tracking-wide">
-                        {pillar.badge}
-                      </span>
-                    </div>
                   </div>
 
                   {/* Content */}
